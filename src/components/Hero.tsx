@@ -42,7 +42,6 @@ export default function Hero({ onNavigate, aboutRef }: HeroProps) {
         </div>
         <div className="hidden md:block">
           <img
-            // src="https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?w=800&auto=format&fit=crop&q=60"
             src="/mitchell.png"
             alt="Developer"
             className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"

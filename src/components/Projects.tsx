@@ -116,7 +116,7 @@ const projects = [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60",
     tags: ["React", "TypeScript", "Tailwind"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/EmmanuelMitchell",
   },
   {
     name: "Movie Searching App",

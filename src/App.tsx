@@ -1,13 +1,3 @@
-// import Home from "./page/Home";
-
-// export default function App() {
-//   return (
-//     <div>
-//       <Home />
-//     </div>
-//   );
-// }
-
 import React, { useRef } from "react";
 import { ThemeProvider } from "./context/ThemeContext";
 import Header from "./components/Header";
