@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Menu, Sun, Moon } from "lucide-react";
-import { useTheme } from "../context/ThemeContext";
+import { Menu } from "lucide-react";
+// import { useTheme } from "../context/ThemeContext";
 
 type HeaderProps = {
   onNavigate: (ref: React.RefObject<HTMLElement>) => void;
@@ -13,7 +13,7 @@ type HeaderProps = {
 
 export default function Header({ onNavigate, refs }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const { isDarkMode, toggleTheme } = useTheme();
+  // const { isDarkMode, toggleTheme } = useTheme();
 
   const handleNavigation = (ref: React.RefObject<HTMLElement>) => {
     setMobileMenuOpen(true);
@@ -29,13 +29,13 @@ export default function Header({ onNavigate, refs }: HeaderProps) {
           </h1>
 
           <div className="flex items-center gap-4">
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
               aria-label="Toggle theme"
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
+            </button> */}
 
             <div className="md:hidden">
               <button
